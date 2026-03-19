@@ -13,7 +13,7 @@ from luma.oled.device import ssd1306
 from PIL import ImageFont
 
 # ---------------- CONFIG ----------------
-ACCESS_KEY = "SsDZFHCVqlZSbaPcycaj/ig+gAqtnt2kyPGpCeX0kYYr8Efn7ncd2w=="
+ACCESS_KEY = "" #Add Access key here from procupine
 SERVER_URL = "http://localhost:5000"
 WAKE_WORD_PATH = "/home/dietpi/downloads/wheels.ppn"
 
