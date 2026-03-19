@@ -1,7 +1,7 @@
 Project Mechano 🐱
-An Edge-AI Powered Animatronic Robot Companion
+An Edge-AI Powered Robot Companion
 
-Project Mechano is an autonomous, fully offline robot inspired by the classic 1950s Tom & Jerry robot cat. It combines local Large Language Models (LLMs), computer vision, and voice recognition to create a robot that can see, hear, speak, and move—all without an internet connection.
+Project Mechano is an autonomous, fully offline robot inspired by the classic 1950s Tom & Jerry robot cat. It combines LLMs, computer vision, and voice recognition to create a robot that can see, hear, speak, and move—all without an internet connection.
 
 The system uses a Raspberry Pi 4 as the "brain" for heavy AI processing, and an ESP32 as the "nervous system" for real-time motor and servo control.
 
@@ -13,6 +13,17 @@ Computer Vision: Captures images and describes its environment using the moondre
 Conversational AI: Engages in fast, short-form chat using the qwen:0.5b local model.
 Animatronic Ears: Reactive SG90 servos that twitch, droop, and go "alert" based on the robot's current state and idle behavior.
 Oled display: To display the status of the robot.
+
+Things I have used,
+![download](https://github.com/user-attachments/assets/b6c66f45-2397-4a52-a603-5f98ede0289f)
+![download (1)](https://github.com/user-attachments/assets/36137162-52c8-4e04-8e1b-9a380449e1ea)
+![download (2)](https://github.com/user-attachments/assets/9d97f862-6994-4bca-9090-921ccb3f2471)
+![download (3)](https://github.com/user-attachments/assets/ac284b0f-e57e-4ad2-80a5-a32986e728c3)
+![download (4)](https://github.com/user-attachments/assets/19fd02d4-bc17-4976-b567-8b00e29fe90e)
+![download (5)](https://github.com/user-attachments/assets/e4eef0ed-01ea-4034-af87-a04b8fd8858a)
+![download (6)](https://github.com/user-attachments/assets/32f80ae8-4375-4f78-8790-074c95e91e7a)
+![download (7)](https://github.com/user-attachments/assets/a0425910-f452-42b0-85f6-1dc8878338f8)
+![download (8)](https://github.com/user-attachments/assets/569f47e3-0c90-4454-8f7b-63ac13d600bf)
 
 Hardware Interfacing: Robust UART communication between the Pi and ESP32 with deterministic motor control via a TB6612FNG driver.
 ![IMG-20260219-WA0002](https://github.com/user-attachments/assets/0a5ca344-cbc9-4fcb-893b-2f8fec2f86dc)
@@ -47,7 +58,7 @@ pip install flask faster-whisper pvporcupine pyaudio pyserial luma.oled luma.cor
 Use the wiring accordingly to the code.
 Flash the Arduino codeto esp.
 
-🎮 Usage
+Usage
 run the ollama model in a terminal.
 Start the Flask backend server:
 python backend.py
