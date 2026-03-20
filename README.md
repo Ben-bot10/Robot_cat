@@ -17,6 +17,8 @@ Oled display: To display the status of the robot.
 Things I have used,
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/321bef11-c908-4153-9996-454fb42dd01a" />
 <img width="775" height="1024" alt="image" src="https://github.com/user-attachments/assets/d6ee7a47-fdb8-4e2b-9c7f-4a3bc50e4bac" />
+https://github.com/user-attachments/assets/e37eb65b-6d02-4702-95b4-9ca1620c0eaa
+
 
 
 
